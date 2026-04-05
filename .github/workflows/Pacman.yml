@@ -2,8 +2,8 @@ name: Generate Pac-Man Contribution Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Runs every 12 hours automatically
-  workflow_dispatch:          # Manual trigger from Actions tab
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -17,35 +17,37 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # ─── LIGHT MODE — Pac-Man ────────────────────────────────────────
-      # Pac-Man body  : vivid yellow  (#facc15)
-      # Empty cell    : soft gray     (#ebedf0)
-      # Level 1       : sky blue      (#bfdbfe)   1–9  contributions
-      # Level 2       : medium blue   (#60a5fa)  10–19 contributions
-      # Level 3       : strong blue   (#2563eb)  20–29 contributions
-      # Level 4       : neon cyan     (#00d4ff)  30+  contributions
-      - name: Generate Light Mode Pac-Man
+      # IMPORTANT: Two separate steps — one per output file.
+      # Using separate steps avoids YAML multiline parsing issues
+      # that silently break the type=pacman parameter.
+
+      # ── LIGHT MODE ──────────────────────────────────────────────────
+      # Pac-Man : bright yellow   #facc15
+      # Empty   : soft gray       #ebedf0
+      # Lv 1    : pale blue       #bfdbfe   (1–9 commits)
+      # Lv 2    : medium blue     #60a5fa  (10–19 commits)
+      # Lv 3    : strong blue     #2563eb  (20–29 commits)
+      # Lv 4    : neon cyan       #00d4ff  (30+ commits)
+      - name: Light Mode — Pac-Man SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: >-
-            dist/github-contribution-grid-snake.svg?type=pacman&color_snake=facc15&color_dots[0]=ebedf0&color_dots[1]=bfdbfe&color_dots[2]=60a5fa&color_dots[3]=2563eb&color_dots[4]=00d4ff
+          outputs: "dist/github-contribution-grid-snake.svg?type=pacman&color_snake=facc15&color_dots[0]=ebedf0&color_dots[1]=bfdbfe&color_dots[2]=60a5fa&color_dots[3]=2563eb&color_dots[4]=00d4ff"
 
-      # ─── DARK MODE — Pac-Man ─────────────────────────────────────────
-      # Pac-Man body  : vivid yellow  (#facc15)
-      # Empty cell    : deep dark     (#161b22)
-      # Level 1       : dark navy     (#0d2d3a)   1–9  contributions
-      # Level 2       : mid teal      (#0c4a6e)  10–19 contributions
-      # Level 3       : bright blue   (#0284c7)  20–29 contributions
-      # Level 4       : neon cyan     (#00d4ff)  30+  contributions
-      - name: Generate Dark Mode Pac-Man
+      # ── DARK MODE ───────────────────────────────────────────────────
+      # Pac-Man : bright yellow   #facc15
+      # Empty   : deep dark       #161b22
+      # Lv 1    : dark navy       #0d2d3a   (1–9 commits)
+      # Lv 2    : mid teal        #0c4a6e  (10–19 commits)
+      # Lv 3    : bright blue     #0284c7  (20–29 commits)
+      # Lv 4    : neon cyan       #00d4ff  (30+ commits)
+      - name: Dark Mode — Pac-Man SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: >-
-            dist/github-contribution-grid-snake-dark.svg?type=pacman&color_snake=facc15&color_dots[0]=161b22&color_dots[1]=0d2d3a&color_dots[2]=0c4a6e&color_dots[3]=0284c7&color_dots[4]=00d4ff
+          outputs: "dist/github-contribution-grid-snake-dark.svg?type=pacman&color_snake=facc15&color_dots[0]=161b22&color_dots[1]=0d2d3a&color_dots[2]=0c4a6e&color_dots[3]=0284c7&color_dots[4]=00d4ff"
 
-      - name: Push Pac-Man SVGs to output Branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
