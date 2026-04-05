@@ -108,7 +108,6 @@ print(me)
 
 ---
 
-<!--===================== FIX 1: GITHUB ANALYTICS =====================-->
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -148,30 +147,26 @@ print(me)
 
 ---
 
-<!--===================== FIX 2: PAC-MAN =====================-->
-## 🕹️ Pac-Man — Last 12 Months of Contributions
 
 <div align="center">
 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/pacman-contribution-graph-dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/github-contribution-grid-snake.svg"
+    srcset="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/pacman-contribution-graph.svg"
   />
   <img
     alt="Pac-Man eating 12 months of contributions"
-    src="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/github-contribution-grid-snake-dark.svg"
+    src="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/pacman-contribution-graph-dark.svg"
     width="100%"
   />
 </picture>
 
 </div>
-
-> 🕹️ Pac-Man chomps through **52 weeks (12 months)** of commits — auto-regenerated every 12 hrs via GitHub Actions
 
 ---
 
@@ -246,7 +241,7 @@ print(me)
         <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="62" height="62" alt="Instagram" />
       </a>
     </td>
-     </tr>
+  </tr>
 </table>
 </div>
 
