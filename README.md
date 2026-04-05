@@ -61,7 +61,7 @@ print(me)
 
 ### 🤖 AI / ML Ecosystem
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,openai,tensorflow&theme=dark" /><br/>
+<img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,tensorflow,sklearn&theme=dark" /><br/>
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-FF6B6B?style=for-the-badge&logo=python&logoColor=white)
@@ -85,7 +85,7 @@ print(me)
 
 ### 🔧 DevOps & Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,sublime&theme=dark" />
 
 </div>
 
@@ -233,41 +233,20 @@ print(me)
   <tr>
     <td align="center" width="110">
       <a href="mailto:shohanhyder@gmail.com">
-        <img src="https://cdn.simpleicons.org/gmail/EA4335" width="62" height="62" alt="Gmail" /><br/>
-        <sub><b>Gmail</b></sub>
+        <img src="https://cdn.simpleicons.org/gmail/EA4335" width="62" height="62" alt="Gmail" />
       </a>
     </td>
     <td align="center" width="110">
       <a href="https://www.linkedin.com/in/shohan-hyder/">
-        <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="62" height="62" alt="LinkedIn" /><br/>
-        <sub><b>LinkedIn</b></sub>
+        <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="62" height="62" alt="LinkedIn" />
       </a>
     </td>
     <td align="center" width="110">
-      <a href="https://codeforces.com/profile/Shohan_Hyder">
-        <img src="https://cdn.simpleicons.org/codeforces/1F8ACB" width="62" height="62" alt="Codeforces" /><br/>
-        <sub><b>Codeforces</b></sub>
+      <a href="https://www.instagram.com/i_am_istiaque/?hl=en">
+        <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="62" height="62" alt="Instagram" />
       </a>
     </td>
-    <td align="center" width="110">
-      <a href="https://www.codechef.com/users/shohanhyder">
-        <img src="https://cdn.simpleicons.org/codechef/5B4638" width="62" height="62" alt="CodeChef" /><br/>
-        <sub><b>CodeChef</b></sub>
-      </a>
-    </td>
-    <td align="center" width="110">
-      <a href="https://leetcode.com/u/Istiaque_Uddin_Hyder/">
-        <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="62" height="62" alt="LeetCode" /><br/>
-        <sub><b>LeetCode</b></sub>
-      </a>
-    </td>
-    <td align="center" width="110">
-      <a href="https://www.fiverr.com/shohanhyder">
-        <img src="https://cdn.simpleicons.org/fiverr/1DBF73" width="62" height="62" alt="Fiverr" /><br/>
-        <sub><b>Fiverr</b></sub>
-      </a>
-    </td>
-  </tr>
+     </tr>
 </table>
 </div>
 
