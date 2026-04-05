@@ -25,14 +25,14 @@ class AIEngineer:
         self.name        = "Istiaque Uddin Hyder (Shohan)"
         self.role        = "AI Engineer & Competitive Programmer"
         self.location    = "Chattogram, Bangladesh 🇧🇩"
-        self.education   = "B.Sc in CSE — Port City International University (CGPA: 3.90)"
+        self.education   = "B.Sc in CSE — Port City International University"
         self.email       = "shohanhyder@gmail.com"
 
         self.specialties = [
             "🤖 Multi-Agent AI Systems (LangGraph, LangChain)",
             "🔗 LLM Integration & RAG Pipelines",
             "⚡ FastAPI Backend for AI Services",
-            "🧩 Competitive Programming (650+ problems solved)",
+            "🧩 Competitive Programmer (problems solved 999+)",
         ]
 
         self.currently   = [
@@ -43,7 +43,7 @@ class AIEngineer:
 
         self.ask_me_about = [
             "LangChain / LangGraph", "FastAPI", "Python",
-            "Competitive Programming", "AI Agent Design",
+            "Competitive Programming", "AI Engineer", "AI Agent Developer",
         ]
 
     def __str__(self):
@@ -169,20 +169,6 @@ print(me)
 | 🏅 Certificate | 🏫 Issuer | 📚 Key Skills |
 |---|---|---|
 | **AI Agent Development Bootcamp for Programmers** | Ostad | LLMs · LangChain · LangGraph · RAG Pipelines · Multi-Agent Workflows |
-
-</div>
-
----
-
-## 🌟 Leadership & Community
-
-<div align="center">
-
-🎓 **General Secretary — PCIU Computer Club**
-> Organized **25+ events** including coding contests, AI workshops, and industry professional collaborations
-
-👨‍🏫 **Programming Mentor**
-> Conducted programming bootcamp sessions guiding university students from **beginner to intermediate level**
 
 </div>
 
