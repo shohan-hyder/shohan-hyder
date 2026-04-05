@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Istique%20Uddin%20Hyder&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20Competitive%20Programmer&descAlignY=55&descSize=18" width="100%"/>
 
 <!-- DYNAMIC TYPING BANNER -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=900&height=100&lines=Hey%2C+I'm+Istiaque+Uddin+Hyder+%F0%9F%91%8B;AI+Engineer+%7C+AI Agent Developer+%7C+Genarative AI+%7C+Python Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=900&height=100&lines=Hey%2C+I'm+Istiaque+Uddin+Hyder+%F0%9F%91%8B;AI+Engineer+%7C+Python+Developer+%7C+Competitive+Programmer)](https://git.io/typing-svg)
 
 
 <!-- PROFILE VIEWS COUNTER -->
