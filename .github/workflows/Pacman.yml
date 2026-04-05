@@ -1,53 +1,30 @@
-name: Generate Pac-Man Contribution Animation
+name: Generate pacman animation
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
-      - main
+    - main
 
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      # IMPORTANT: Two separate steps — one per output file.
-      # Using separate steps avoids YAML multiline parsing issues
-      # that silently break the type=pacman parameter.
-
-      # ── LIGHT MODE ──────────────────────────────────────────────────
-      # Pac-Man : bright yellow   #facc15
-      # Empty   : soft gray       #ebedf0
-      # Lv 1    : pale blue       #bfdbfe   (1–9 commits)
-      # Lv 2    : medium blue     #60a5fa  (10–19 commits)
-      # Lv 3    : strong blue     #2563eb  (20–29 commits)
-      # Lv 4    : neon cyan       #00d4ff  (30+ commits)
-      - name: Light Mode — Pac-Man SVG
-        uses: Platane/snk/svg-only@v3
+      - name: generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: "dist/github-contribution-grid-snake.svg?type=pacman&color_snake=facc15&color_dots[0]=ebedf0&color_dots[1]=bfdbfe&color_dots[2]=60a5fa&color_dots[3]=2563eb&color_dots[4]=00d4ff"
 
-      # ── DARK MODE ───────────────────────────────────────────────────
-      # Pac-Man : bright yellow   #facc15
-      # Empty   : deep dark       #161b22
-      # Lv 1    : dark navy       #0d2d3a   (1–9 commits)
-      # Lv 2    : mid teal        #0c4a6e  (10–19 commits)
-      # Lv 3    : bright blue     #0284c7  (20–29 commits)
-      # Lv 4    : neon cyan       #00d4ff  (30+ commits)
-      - name: Dark Mode — Pac-Man SVG
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: "dist/github-contribution-grid-snake-dark.svg?type=pacman&color_snake=facc15&color_dots[0]=161b22&color_dots[1]=0d2d3a&color_dots[2]=0c4a6e&color_dots[3]=0284c7&color_dots[4]=00d4ff"
 
-      - name: Push to output branch
+      - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
