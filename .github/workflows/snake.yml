@@ -1,14 +1,9 @@
 name: Generate Snake Animation
 
 on:
-  # Runs automatically every 12 hours
   schedule:
-    - cron: "0 */12 * * *"
-
-  # Allows manual trigger from Actions tab
-  workflow_dispatch:
-
-  # Also runs on every push to main branch
+    - cron: "0 */12 * * *"   # Runs every 12 hours automatically
+  workflow_dispatch:          # Manual trigger from Actions tab
   push:
     branches:
       - main
@@ -22,15 +17,35 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake (Light Mode)
+      # ─── LIGHT MODE SNAKE ────────────────────────────────────────────
+      # Snake color  : vivid orange  (#f97316)
+      # Empty cell   : soft gray     (#ebedf0)
+      # Level 1      : sky blue      (#bfdbfe)   1–9 contributions
+      # Level 2      : medium blue   (#60a5fa)  10–19 contributions
+      # Level 3      : strong blue   (#2563eb)  20–29 contributions
+      # Level 4      : cyan accent   (#00d4ff)  30+  contributions
+      - name: Generate Light Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=f97316&color_dots[0]=ebedf0&color_dots[1]=bfdbfe&color_dots[2]=60a5fa&color_dots[3]=2563eb&color_dots[4]=00d4ff
 
-      - name: Push Snake to Output Branch
+      # ─── DARK MODE SNAKE ─────────────────────────────────────────────
+      # Snake color  : vivid cyan    (#00d4ff)
+      # Empty cell   : deep dark     (#161b22)
+      # Level 1      : dark teal     (#0d2d3a)   1–9 contributions
+      # Level 2      : mid teal      (#0c4a6e)  10–19 contributions
+      # Level 3      : bright blue   (#0284c7)  20–29 contributions
+      # Level 4      : neon cyan     (#00d4ff)  30+  contributions
+      - name: Generate Dark Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?color_snake=00d4ff&color_dots[0]=161b22&color_dots[1]=0d2d3a&color_dots[2]=0c4a6e&color_dots[3]=0284c7&color_dots[4]=00d4ff
+
+      - name: Push Snake SVGs to output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
