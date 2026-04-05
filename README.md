@@ -60,11 +60,11 @@ print(me)
 <div align="center">
 
 ### 🤖 AI / ML Ecosystem
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow&theme=dark" /><br/>
+
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-FF6B6B?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -72,28 +72,20 @@ print(me)
 ![Firecrawl](https://img.shields.io/badge/Firecrawl-FF6B35?style=for-the-badge&logo=firefoxbrowser&logoColor=white)
 
 ### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+<img src="https://skillicons.dev/icons?i=python,cpp,c,js,php&theme=dark" />
 
 ### 🌐 Frontend & Web
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+<img src="https://skillicons.dev/icons?i=html,css,react,bootstrap&theme=dark" />
 
 ### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres&theme=dark" />
 
 ### 🔧 DevOps & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode&theme=dark" />
 
 </div>
 
@@ -141,17 +133,19 @@ print(me)
 
 ---
 
-## 🐍 Contribution Snake
+## 🕹️ Pac-Man Contribution Grid — Last 12 Months
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/github-contribution-grid-snake.svg"/>
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <img alt="pacman eating 12 months of contributions" src="https://raw.githubusercontent.com/shohan-hyder/shohan-hyder/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
 
 </div>
+
+> 🕹️ Pac-Man chomps through **52 weeks (12 months)** of commits — auto-regenerated every 12 hrs via GitHub Actions
 
 ---
 
@@ -204,45 +198,32 @@ print(me)
 
 ---
 
-## 🌟 Leadership & Community
-
-<div align="center">
-
-|  |  |
-|:---:|:---|
-| 🎓 | **General Secretary — PCIU Computer Club** · Organized **25+ events** including coding contests, AI workshops & industry professional collaborations |
-| 👨‍🏫 | **Programming Mentor** · Conducted bootcamp sessions guiding university students from **beginner → intermediate** level |
-
-</div>
-
----
-
 ## 🤝 Connect With Me
 
 <div align="center">
 
 <a href="mailto:shohanhyder@gmail.com">
-  <img src="https://img.shields.io/badge/-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="40" alt="Email"/>
+  <img src="https://img.shields.io/badge/-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="60" width="60" alt="Email"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/shohan-hyder/">
-  <img src="https://img.shields.io/badge/-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="60" width="60" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="https://codeforces.com/profile/Shohan_Hyder">
-  <img src="https://img.shields.io/badge/-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="40" alt="Codeforces"/>
+  <img src="https://img.shields.io/badge/-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="60" width="60" alt="Codeforces"/>
 </a>
 &nbsp;
 <a href="https://www.codechef.com/users/shohanhyder">
-  <img src="https://img.shields.io/badge/-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="40" alt="CodeChef"/>
+  <img src="https://img.shields.io/badge/-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="60" width="60" alt="CodeChef"/>
 </a>
 &nbsp;
 <a href="https://leetcode.com/u/Istiaque_Uddin_Hyder/">
-  <img src="https://img.shields.io/badge/-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="40" alt="LeetCode"/>
+  <img src="https://img.shields.io/badge/-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="60" width="60" alt="LeetCode"/>
 </a>
 &nbsp;
 <a href="https://www.fiverr.com/shohanhyder">
-  <img src="https://img.shields.io/badge/-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" height="40" alt="Fiverr"/>
+  <img src="https://img.shields.io/badge/-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" height="60" width="60" alt="Fiverr"/>
 </a>
 
 </div>
